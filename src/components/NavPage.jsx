@@ -22,6 +22,9 @@ const NavPage = () => {
                                 <Link class="nav-link" to="/addbus">Add Bus</Link>
                             </li>
                             <li class="nav-item">
+                                <Link class="nav-link" to="/signup">Sign Up</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link class="nav-link " to="/search">Search</Link>
                             </li>
                             <li class="nav-item">
