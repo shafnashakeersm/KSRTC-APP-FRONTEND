@@ -12,7 +12,7 @@ const LogIn = () => {
         setdata({...data,[event.target.name]:event.target.value})
     }
     const readValue=()=>{
-        axios.post("http://localhost:8004/login",data).then(
+        axios.post("",data).then(
             (response)=>{
                 if(response.data.status == "success"){
                     sessionStorage.setItem("token",response.data.token)
