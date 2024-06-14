@@ -6,6 +6,7 @@ import NavPage from './components/NavPage';
 import LogIn from './components/LogIn';
 import SignIn from './components/SignIn';
 import AddBus from './components/AddBus';
+import ViewAll from './components/ViewAll';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/login' element={<LogIn/>}/>
       <Route path='/signin' element={<SignIn/>}/>
       <Route path='/addbus' element={<AddBus/>}/>
+      <Route path='/viewall' element={<ViewAll/>}/>
       
       
      </Routes>
